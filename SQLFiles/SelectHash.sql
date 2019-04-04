@@ -1,0 +1,16 @@
+SET NOCOUNT ON
+SELECT [siteid]
+	  ,[projectid]
+      ,[PIDHASH]
+      ,[hash1]
+      ,[hash2]
+	  ,[hash3]
+	  ,[hash4]
+	  ,[hash5]
+	  ,[hash6]
+	  ,[hash7]
+	  ,[hash8]
+	  ,[hash9]
+	  ,[hash10]
+	  ,[exclusion]
+FROM $(hashTable)
