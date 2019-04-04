@@ -7,25 +7,25 @@
 ; Provide a temporary table name to store clean data e.g. temptablename=#temptabletostorecleanDATA (# followed by any name)
 ; Provide a table name to store hashes e.g. hashTable=database.schema.table
 ; each site should select randomdate (MM-DD-YYYY) for privateDate. These should not be shared with anyone
-; provide the file name and paths to encryptedSaltfile and your privateKeyfile e.g. "C:\Users\sitename_project_1_salt.txt"
+; provide the file name and paths to encryptedSaltfile and your privateKeyfile e.g. "T:\Users\sitename_project_1_salt.txt"
 ; If the hash output should be encrypted, put encrypthhashfile=1 (default is 0, not encrypted) and provide file name and path to encrypthashfilekey="F:\users\hashfileencryptkey.txt"
 ; Please ensure that patientid is unique for each record and there are no duplicates 
 
 
-Server=10.127.62.80
-Database=dev_kruti
-schema=luke
-sourceTable=(select top 10 * from dbo.testhash12)t
-patientid=PTMEDREC
-name1=PTNAME_FIRST
-name2=PTNAME_LAST
-dob=PTBIRTH
-ssn=PTSSNUM
-exclusion=1
-temptablename=#temptabletostorecleanDATA
-hashTable=testanddrop
-privateDate=01/01/2018
-encryptedSaltfile="O:\CRU\Kruti\1 Ongoing Work Hold\foo\3CRU-PPRL-hashing-application-master\CRU-PPRL-hashing-application-master\cookcounty_proj_project1_salt.txt"
-privateKeyfile="O:\CRU\Kruti\1 Ongoing Work Hold\foo\3CRU-PPRL-hashing-application-master\CRU-PPRL-hashing-application-master\testprivate.txt"
+Server=
+Database=
+schema=
+sourceTable=
+patientid=
+name1=
+name2=
+dob=
+ssn=
+exclusion=
+temptablename=
+hashTable=
+privateDate=
+encryptedSaltfile=
+privateKeyfile=
 encrypthhashfile=1
-disambiguatepublicKey="O:\CRU\Kruti\1 Ongoing Work Hold\foo\7CRU-PPRL-hashing-application-master\CRU-PPRL-hashing-application-master\hashfile_publickey.txt"
+disambiguatepublicKey=
