@@ -1,0 +1,3 @@
+10 records read
+9 records met criteria
+9 records hashed, inserted into table, and exported to csv successfully 
