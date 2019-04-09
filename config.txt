@@ -8,7 +8,6 @@
 ; Provide a table name to store hashes e.g. hashTable=database.schema.table
 ; each site should select randomdate (MM-DD-YYYY) for privateDate. These should not be shared with anyone
 ; provide the file name and paths to encryptedSaltfile and your privateKeyfile e.g. "T:\Users\sitename_project_1_salt.txt"
-; If the hash output should be encrypted, put encrypthhashfile=1 (default is 0, not encrypted) and provide file name and path to encrypthashfilekey="F:\users\hashfileencryptkey.txt"
 ; Please ensure that patientid is unique for each record and there are no duplicates 
 
 
@@ -27,5 +26,3 @@ hashTable=
 privateDate=
 encryptedSaltfile=
 privateKeyfile=
-encrypthhashfile=1
-disambiguatepublicKey=
