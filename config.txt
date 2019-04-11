@@ -7,7 +7,6 @@
 ; Provide a temporary table name to store clean data e.g. temptablename=#temptabletostorecleanDATA (# followed by any name)
 ; Provide a table name to store hashes e.g. hashTable=database.schema.table
 ; each site should select randomdate (MM-DD-YYYY) for privateDate. These should not be shared with anyone
-; provide the file name and paths to encryptedSaltfile and your privateKeyfile e.g. "T:\Users\sitename_project_1_salt.txt"
 ; Please ensure that patientid is unique for each record and there are no duplicates 
 
 
@@ -24,5 +23,3 @@ exclusion=
 temptablename=
 hashTable=
 privateDate=
-encryptedSaltfile=
-privateKeyfile=
