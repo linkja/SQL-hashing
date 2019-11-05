@@ -4,7 +4,7 @@ GO
 /*to standardize data, generate composite patient identifiers and hash them*/
 /*to run SQL scripts directly, map these to real database, objects, tables & field names:
 $(Database),$(schema),$(hashTable),$(temptablename),$(sourceTable),
-$(patientid),$(name1),$(name2),$(ssn),$(exception_flag) and
+$(patientid),$(name1),$(name2),$(dob),$(ssn),$(exclusion) and
 replace these with real values:
 '$(siteid)','$(privateSalt)','$(projectSalt)','$(projectid)','$(privateDate)'*/
 
